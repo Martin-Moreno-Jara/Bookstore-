@@ -1,5 +1,4 @@
 import React from 'react';
-import placeholder1 from '../images/placeholder.png'
 import '../stylesheets/Book.css'
 
 function Book({title, author,image,id,triggerPopUp,getId}){
