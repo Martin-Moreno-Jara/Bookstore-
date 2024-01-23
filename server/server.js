@@ -13,7 +13,6 @@ connectToDb((err)=>{
     if(!err){
         app.listen(5000, ()=>{console.log('The program is running and connected to db')});
         db=getDb();
-        console.log(db)
     }
 })
 
@@ -44,7 +43,6 @@ app.get('/books/getAll/:p/:title/:author', (req,res)=>{
     find(objetctSearch).limit(booksPerPage)
     .sort({author:1}).forEach(book =>{books.push(book)})
         .then(()=>{
-            console.log(books)
             res.status(200).json(books)
         })
         .catch(()=>{res.status(500).json({error:'Could not fetch documents'})})
