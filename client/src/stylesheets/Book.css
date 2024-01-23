@@ -1,0 +1,33 @@
+.Book-container{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 650px;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    border: 1px solid black;
+    background-color: rgb(176, 140, 109);
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+}
+
+.Book-image{
+    width: 400px;
+    height: 450px;
+    margin-bottom: 15px;
+}
+
+.Book-description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(176, 140, 109);
+}
+
+.Book-container:hover{
+    font-weight: bold;
+    border: 3px solid white;
+}

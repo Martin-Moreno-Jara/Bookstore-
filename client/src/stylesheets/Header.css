@@ -1,0 +1,26 @@
+.header{
+    width: 100%;
+    height: 80px;
+    background-color:#b08c6d;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 50px;
+    padding-top: 15px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+
+.insert-btn{
+    width: 150px;
+    font-size: 0.3em;
+    align-self: flex-start;
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid #b08c6d;
+}
+.insert-btn:hover{
+    color: white;
+    font-weight: bold;
+}
